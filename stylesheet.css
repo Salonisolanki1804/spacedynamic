@@ -1,0 +1,191 @@
+ span{
+    color: #fe3f40;
+}
+em{
+color: #03a4ed;
+}
+/* navbar*/
+.navbar-collapse .navbar-nav .nav-link{
+      color: black;
+     }
+     .navbar-collapse .navbar-nav .nav-link:hover{
+      color: #9a5d4c;
+     }
+.navbar-brand h4{
+       color:#03a4ed;
+}
+/* -----------home section-----------*/
+.main{
+    background-image: url('img/baner-dec-left.png');
+    background-repeat: no-repeat;
+}
+.main h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.main .form-input{
+    position: absolute;
+    height: 66px;
+    background-color: #03a4ed;
+    border-radius: 33px;
+    border: none;
+    outline: none;
+    padding: 0px 2px;
+    width: 70%;
+}
+
+.main form button{
+   position: relative;
+    left: 150px;
+    top: 10px;
+    font-weight: 500;
+    background-color: #fff;
+    color: #fe3f40;
+    padding: 12px 12px;
+    border-radius: 23px;
+    outline: none;
+    border: none;
+    
+}
+/* ------------about section----------------*/
+.about{
+    background-image: url('img/about-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 0% 15% 0%;
+}
+.about .icon{
+    float: left;
+}
+.about .content{
+    padding-left: 80px;
+}
+/* ------------portfolio section----------------*/
+.p-heading{
+    padding: 5% 30% 5% 30%;
+    text-align: center;
+}
+.show-content {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.show-content img {
+    border-radius: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+    padding: 30%;
+}
+
+@media(max-width:678px){
+    
+        .show-content{
+          position: relative;
+         overflow: hidden;
+         text-align: center;
+         margin: 0% 20% 0% 20%;
+        }
+    
+}
+.hidden-content {
+    position: absolute;
+    bottom: -100%; 
+    left: 0;
+    padding: 20px;
+    background-color: #fe3f40;
+    color: white;
+    border-radius: 20px;
+    transition: bottom 0.5s ease;
+}
+
+/* Hover effect */
+.show-content:hover img {
+    transform: translateY(50px); 
+}
+
+.show-content:hover .hidden-content {
+    bottom: 100px; 
+}
+
+
+
+/* ------------service section----------------*/
+
+/*blog*/ 
+.blog{
+    text-align: center;
+}
+ .blog .blog-img{
+        border-radius: 20px;
+        position: relative;
+        
+}
+.blog .info{
+    position: absolute;
+    bottom: -40px;
+    background-color:white;
+    padding: 5%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  
+}
+@media(max-width:678px){
+    
+        .blog .info{
+            bottom: -30px;
+        }
+    }
+.blog .info ul li{
+     
+    
+    margin-right: 20px;
+
+}
+.blog .info ul{
+        display: flex;
+}
+.info-btn{
+    background-color: #03a4ed;
+    border-radius: 30px;
+    border: none;
+    padding: 3%;
+    margin-top: 10%;
+    color: white;
+}
+.blog-right img{
+    border-radius: 30px;
+}
+/* message*/
+.message{
+    background-image: url('img/contact-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    margin-bottom: 10%;
+}
+.message form{
+    background-color: white;
+    border-radius: 20px;
+    padding: 60px 30px;
+}
+.message form input{
+    background-color: #d1f3ff;
+    border: none;
+    outline: none;
+    border-radius: 33px;
+    height: 46px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+.message form textarea{
+    background-color: #d1f3ff;
+    border: none;
+    outline: none;
+    border-radius: 33px;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+}
+body{
+    overflow-x: hidden;
+}
